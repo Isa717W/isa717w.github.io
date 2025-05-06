@@ -1,0 +1,118 @@
+/* Basic reset to remove default margins */
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 2.0;
+    max-width: 1550px;
+    margin: 0 auto;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                url('/Users/isabellawang/Library/CloudStorage/OneDrive-Personal/Documents/UR/LING102/Final Project/images/Disney.png'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center; 
+    color: white; 
+    padding: 40px 20px; 
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-variant: small-caps;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-variant: small-caps;
+    font-size: 1.2em;
+}
+
+nav {
+    background: #e6e6fa;
+    padding: 8px;
+    margin-bottom: 20px;
+}
+
+nav {
+    background: #e6e6fa;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Center links horizontally */
+    gap: 15px; /* Consistent spacing between links */
+}
+
+nav a {
+    text-decoration: none;
+    color: #4b0082;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 10px;
+    
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 0.9em;
+    color: #666;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* Ensures borders merge neatly */
+    margin: 20px 0;
+    font-size: 0.9em;
+    border: 1px solid #ddd; /* Outer border for the table */
+}
+
+table th, table td {
+    padding: 12px 15px;
+    text-align: left;
+    border: 1px solid #ddd; /* Borders for each cell */
+}
+
+table th {
+    background-color: #e6e6fa;
+    font-variant: small-caps;
+    border-bottom: 2px solid #4b0082; /* Thicker bottom border for headers */
+}
+
+p {
+    margin-bottom: 1em; /* Adjust this value (1em = current font size) */
+  }
+
+/* Blog post specific styles */
+.header-image {
+    font-variant: small-caps;
+    letter-spacing: 1px;
+}
+
+.content {
+    text-align: justify;
+    margin-bottom: 50px;
+}
+
+.content h2 {
+    color: #4b0082;
+    border-bottom: 1px solid #e6e6fa;
+    padding-bottom: 10px;
+}
+
+.content h3 {
+    color: #6a5acd;
+    margin-top: 25px;
+}
