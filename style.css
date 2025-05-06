@@ -15,9 +15,9 @@ body {
 
 header {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-                url('images/Disney.png'); /* Replace with your image path */
+                url('images/Disney.png'); 
     background-size: cover;
-    background-position: center; 
+    background-position: 70% 30%; 
     color: white; 
     padding: 40px 20px; 
     margin-bottom: 20px;
